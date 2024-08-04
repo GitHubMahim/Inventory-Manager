@@ -42,6 +42,9 @@ export default function Home() {
   }
 
   const addItem = async (item) => {
+    if (item == '') {
+      return;
+    }
     const lowerItem = item.toLowerCase();
     console.log("item:", item);
     console.log("loswercase: ", lowerItem);
@@ -121,7 +124,7 @@ export default function Home() {
         <Box
           width="800px"
           height="100px"
-          bgcolor={'#ADD8E6'}
+          bgcolor={'#6be067'}
           display={'flex'}
           justifyContent={'center'}
           alignItems={'center'}
