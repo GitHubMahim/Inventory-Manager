@@ -121,7 +121,7 @@ export default function Home() {
         <Box
           width="800px"
           height="100px"
-          bgcolor={'#6be067'}
+          bgcolor={'#ADD8E6'}
           display={'flex'}
           justifyContent={'center'}
           alignItems={'center'}
