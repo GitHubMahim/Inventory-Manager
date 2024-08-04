@@ -121,12 +121,12 @@ export default function Home() {
         <Box
           width="800px"
           height="100px"
-          bgcolor={'#ADD8E6'}
+          bgcolor={'#6be067'}
           display={'flex'}
           justifyContent={'center'}
           alignItems={'center'}
         >
-          <Typography variant='h2' color='#267' textAlign='center'>
+          <Typography variant='h2' color='#333' textAlign='center'>
             Inventory Items
           </Typography>
         </Box>
