@@ -126,7 +126,7 @@ export default function Home() {
           justifyContent={'center'}
           alignItems={'center'}
         >
-          <Typography variant='h2' color='#333' textAlign='center'>
+          <Typography variant='h2' color='#267' textAlign='center'>
             Inventory Items
           </Typography>
         </Box>
